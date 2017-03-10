@@ -1,0 +1,708 @@
+
+/*  Main  */
+body{
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.shadow{
+    -webkit-box-shadow: 10px 10px 72px 0px rgba(140,138,140,1);
+    -moz-box-shadow: 10px 10px 72px 0px rgba(140,138,140,1);
+    box-shadow: 10px 10px 72px 0px rgba(140,138,140,1);
+}
+
+/*  Main  */
+.whiteboarder{
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+/* menu div*/
+.menu-div{
+    float: right;
+    position: relative;
+    right: 120px;
+    top: -180px;
+}
+
+#menu{
+    font-family: 'Raleway';
+    font-weight: normal;
+    font-size:1.2em;
+}
+
+#menu_icon{
+    position: relative;
+    top:-2px;
+    left:10px;
+}
+
+a:visited, a:hover, a:link {
+    color:black;
+}
+
+/* image card views 1-4 common properties */
+#cardview01, #cardview02, #cardview03, #cardview04{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 93%;
+    min-height: 500px;
+    overflow: hidden;
+}
+
+/* image1 */
+#cardview01{
+    background-image: url("../img/bg_01.jpg");
+    margin-top: 10px;
+}
+
+/* image1 text wrapper*/
+.limit1{
+    width: 350px;
+    position: relative;
+    left:15%;
+    top: 90px;
+}
+
+#hr1,#hr4, #hr5, #hr7{
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size:2.8em;
+}
+
+#hr2, #hr3, #hr6, #hr8{
+    font-family: 'Raleway';
+    font-weight: 200;
+    font-size:2.8em;
+}
+
+
+.content1, .content2, .content4, .content6{
+    font-family: Monaco;
+    font-style: italic;
+}
+
+/* image2 */
+#cardview02{
+    background-image: url("../img/bg_02.jpg");
+    margin-top: 40px;
+}
+
+.limit2{
+    width: 420px;
+    position: relative;
+    left: 47%;
+    top: 110px;
+}
+
+/* social network links  */
+.socialnetwork{
+    text-align: center;
+    display: inline-block;
+    height: 25px;
+    width: 125px;
+    margin-right: 10px;
+}
+
+.socialnetwork_icon a{
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    background-color: #9a9a9a;
+}
+
+.socialnetwork_icon a:hover{
+    background-color: black;
+}
+
+
+/* image3 */
+#cardview03{
+    background-image: url("../img/bg_03.jpg");
+    margin-top: 40px;
+}
+
+.limit4{
+    width: 300px;
+    position: relative;
+    left: 15%;
+    top: 110px;
+}
+
+/* image4 */
+#cardview04{
+    background-image: url("../img/bg_04.jpg");
+    margin-top: 40px;
+}
+
+/* image5,6 */
+#cardview05, #cardview06{
+    background-color: #efefef;
+    width:92%;
+    height:500px;
+    margin-top: 40px;
+    margin-left: 40px;
+    min-height: 500px;
+    overflow: hidden;
+}
+
+.limit6{
+    width: 700px;
+    position: relative;
+    text-align: center;
+    top: 40px;
+    margin: 0 auto;
+}
+
+/* Contact input section */
+input[type="text"], textarea {
+    background-color : #efefef;
+}
+.css-input {
+    padding:3px;
+    font-size:16px;
+    border-width:1px;
+    rder-style:solid;
+    border-color:#615c61;
+    box-shadow: 3px 4px 5px 0px
+    rgba(150,145,150,.75);
+}
+.css-input:focus {
+    outline:none;
+}
+
+/* Responsive  */
+@media only screen and (max-width: 996px) and  (min-width: 700px){
+
+    .whiteboarder{
+        position: relative;
+        top:-50px;
+        padding-bottom: 0;
+    }
+
+    .menu-div{
+        float: right;
+        position: relative;
+        right: 60px;
+        top: -140px;
+    }
+
+    #menu{
+        font-family: 'Raleway';
+        font-weight: normal;
+        font-size:1.2em;
+    }
+
+    #menu_icon{
+        position: relative;
+        top:-2px;
+        left:10px;
+    }
+
+    a:visited, a:hover{
+        color:black;
+    }
+
+    #cardview01, #cardview02, #cardview03,#cardview04, #cardview05{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 93%;
+        overflow: hidden;
+    }
+
+    #cardview01{
+        background-image: url("../img/bg_01.jpg");
+        margin-top: 10px;
+        min-height: 400px;
+    }
+
+    #cardview02{
+        background-image: url("../img/bg_02.jpg");
+        margin-top: 10px;
+        min-height: 400px;
+        position: relative;
+        top:-50px;
+    }
+
+    #cardview03{
+        background-image: url("../img/bg_03.jpg");
+        min-height: 360px;
+        position: relative;
+        top:-90px;
+    }
+
+    #cardview04{
+        background-image: url("../img/bg_04.jpg");
+        min-height: 380px;
+        position: relative;
+        top:-130px;
+    }
+
+    /* image5,6 */
+    #cardview05, #cardview06{
+        background-color: #efefef;
+        width:630px;
+        height:310px;
+        margin-left: 40px;
+        overflow: hidden;
+    }
+
+    #cardview05{
+        position: relative;
+        top:-160px;
+        min-height: 310px;
+    }
+
+    #cardview06{
+        position: relative;
+        top:-160px;
+        min-height: 480px;
+    }
+
+
+    .limit1{
+        width: 200px;
+        position: relative;
+        left:10%;
+        top: 70px;
+    }
+
+    .limit2{
+        width: 320px;
+        position: relative;
+        left: 43%;
+        top: 70px;
+    }
+
+    .limit4{
+        width: 200px;
+        position: relative;
+        left: 10%;
+        top: 80px;
+    }
+
+    .limit6{
+        width: 400px;
+        position: relative;
+        text-align: center;
+        top: 40px;
+        margin: 0 auto;
+    }
+
+
+    #hr1,#hr4, #hr5, #hr7{
+        font-family: 'Raleway';
+        font-weight: 400;
+        font-size:1.8em;
+    }
+
+    #hr2, #hr3, #hr6, #hr8{
+        font-family: 'Raleway';
+        font-weight: 400;
+        font-size:1.8em;
+    }
+
+    .content1, .content2, .content4, .content6{
+        font-family: Monaco;
+        font-style: italic;
+        font-size:0.8em;
+    }
+}
+
+
+/* Responsive  */
+@media only screen and (max-width: 700px) and  (min-width: 414px) {
+
+    .whiteboarder{
+        position: relative;
+        top:-50px;
+        padding-bottom: 0;
+    }
+
+    .menu-div{
+        float: right;
+        position: relative;
+        right: 60px;
+        top: -120px;
+    }
+
+    #menu{
+        font-family: 'Raleway';
+        font-weight: normal;
+        font-size:1.2em;
+    }
+
+    #menu_icon{
+        position: relative;
+        top:-2px;
+        left:10px;
+    }
+
+    a:visited, a:hover{
+        color:black;
+    }
+
+    #cardview01, #cardview02, #cardview03,#cardview04, #cardview05{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 93%;
+        overflow: hidden;
+    }
+
+    #cardview01{
+        background-image: url("../img/bg_01.jpg");
+        margin-top: 10px;
+        min-height: 360px;
+    }
+
+    #cardview02{
+        background-image: url("../img/bg_02.jpg");
+        margin-top: 10px;
+        min-height: 360px;
+        position: relative;
+        top:-50px;
+    }
+
+    #cardview03{
+        background-image: url("../img/bg_03.jpg");
+        min-height: 360px;
+        position: relative;
+        top:-90px;
+    }
+
+    #cardview04{
+        background-image: url("../img/bg_04.jpg");
+        min-height: 320px;
+        position: relative;
+        top:-130px;
+    }
+
+    /* image5,6 */
+    #cardview05, #cardview06{
+        background-color: #efefef;
+        width:560px;
+        height:310px;
+        margin-left: 40px;
+        overflow: hidden;
+    }
+
+    #cardview05{
+        position: relative;
+        top:-160px;
+        min-height: 310px;
+    }
+
+    #cardview06{
+        position: relative;
+        top:-160px;
+        min-height: 480px;
+    }
+
+
+    .limit1{
+        width: 200px;
+        position: relative;
+        left:10%;
+        top: 70px;
+    }
+
+    .limit2{
+        width: 320px;
+        position: relative;
+        left: 43%;
+        top: 70px;
+    }
+
+    .limit4{
+        width: 200px;
+        position: relative;
+        left: 10%;
+        top: 80px;
+    }
+
+    .limit6{
+        width: 400px;
+        position: relative;
+        text-align: center;
+        top: 40px;
+        margin: 0 auto;
+    }
+
+
+    #hr1,#hr4, #hr5, #hr7{
+        font-family: 'Raleway';
+        font-weight: 400;
+        font-size:1.8em;
+    }
+
+    #hr2, #hr3, #hr6, #hr8{
+        font-family: 'Raleway';
+        font-weight: 400;
+        font-size:1.8em;
+    }
+
+    .content1, .content2, .content4, .content6{
+        font-family: Monaco;
+        font-style: italic;
+        font-size:0.8em;
+    }
+}
+
+
+/* Responsive  */
+@media only screen and (max-width: 414px) {
+
+
+
+    .whiteboarder{
+        position: relative;
+        top:-50px;
+        padding-bottom: 0;
+        height:1650px;
+        min-height:1650px;
+    }
+
+    .menu-div{
+        float: right;
+        position: relative;
+        right: 30px;
+        top: -160px;
+    }
+
+    #menu{
+        font-family: 'Raleway';
+        font-weight: normal;
+        font-size:1.2em;
+    }
+
+    #menu_icon{
+        position: relative;
+        top:-2px;
+        left:10px;
+    }
+
+    a:visited, a:hover{
+        color:black;
+    }
+
+    #cardview01, #cardview02, #cardview03,#cardview04, #cardview05{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 93%;
+        overflow: hidden;
+    }
+
+    #cardview01{
+        background-color: #efefef;
+        background-image: url("../img/bg_01.jpg");
+        margin-top: 10px;
+        min-height: 240px;
+        width:320px;
+        position: relative;
+        left:12px;
+        top:20px;
+
+    }
+
+    #cardview02{
+        background-color: #efefef;
+        background-image: url("../img/bg_02.jpg");
+        min-height: 240px;
+        width:320px;
+        position: relative;
+        left:12px;
+    }
+
+    #cardview03{
+        background-image: url("../img/bg_03.jpg");
+        min-height: 280px;
+        position: relative;
+        top:-50px;
+    }
+
+    #cardview04{
+        background-image: url("../img/bg_04.jpg");
+        min-height: 280px;
+        position: relative;
+        top:-160px;
+    }
+
+    /* image5,6 */
+    #cardview05, #cardview06{
+        background-color: #efefef;
+        width:320px;
+        overflow: hidden;
+        min-height:120px;
+    }
+
+    #cardview05{
+        position: relative;
+        left:-28px;
+        top:-230px;
+        min-height:220px;
+        height:220px;
+    }
+
+    .ms-caro3d-template {
+        max-width: 360px;
+        margin: 0 auto;
+        height:300px;
+        position: relative;
+        left:-34px;
+    }
+
+    #cardview06{
+        position: relative;
+        left:-26px;
+        top:-240px;
+        height:340px;
+        min-height:360px;
+    }
+
+
+    .limit1{
+        width: 140px;
+        position: relative;
+        left:5%;
+        top: 10px;
+    }
+
+    .limit2{
+        width: 180px;
+        position: relative;
+        left: 43%;
+        top: 0px;
+    }
+
+
+
+    .limit4{
+        width: 110px;
+        position: relative;
+        left: 10%;
+        top: 80px;
+    }
+
+
+    .limit6{
+        width: 280px;
+        position: relative;
+        text-align: center;
+        top: 40px;
+        margin: 0 auto;
+    }
+
+
+    #hr1,#hr4, #hr5, #hr7{
+        font-family: 'Raleway';
+        font-weight: 400;
+        font-size:1.3em;
+    }
+
+    #hr2, #hr3, #hr6, #hr8{
+        font-family: 'Raleway';
+        font-weight: 400;
+        font-size:1.2em;
+    }
+
+    #hr3{
+        position: relative;
+        left:-60px;
+    }
+
+    #hr4{
+        position: relative;
+        left:96px;
+        top:-24px;
+    }
+
+    .content1, .content2, .content4, .content6{
+        font-family: Monaco;
+        font-style: italic;
+        font-size:0.6em;
+    }
+    .content2{
+        position: relative;
+        top:-40px;
+    }
+    .content4{
+        position: relative;
+        top:-20px;
+    }
+    /* social network links  */
+    .socialnetwork{
+        text-align: center;
+        display: inline-block;
+        height: 20px;
+        width: 125px;
+        margin-right: 10px;
+        position: relative;
+        top:-45px;
+    }
+
+    .socialnetwork_icon a{
+        display: inline-block;
+        height: 25px;
+        width: 25px;
+        background-color: #9a9a9a;
+    }
+
+    .socialnetwork_icon a:hover{
+        background-color: black;
+    }
+
+    /* Contact input section */
+    input[type="text"], textarea {
+        background-color : #efefef;
+    }
+    .css-input {
+        padding:3px;
+        font-size:16px;
+        border-width:1px;
+        rder-style:solid;
+        border-color:#615c61;
+        box-shadow: 3px 4px 5px 0px
+        rgba(150,145,150,.75);
+    }
+
+    #Subject{
+        position: relative;
+        top:-60px;
+        left:-20px;
+        width: 120px;
+    }
+
+    #Email{
+        position: relative;
+        top:-60px;
+        left:-10px;
+        width: 120px;
+    }
+
+    #message{
+        width: 280px;
+        height: 75px;
+        position: relative;
+        top:-60px;
+        left:-10px;
+
+    }
+
+
+    #submit{
+        position: relative;
+        top:-60px;
+
+    }
+
+    button{
+        font-size:80%;
+    }
+
+    .css-input:focus {
+        outline:none;
+    }
+}
